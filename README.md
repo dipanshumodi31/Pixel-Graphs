@@ -1,4 +1,3 @@
-
 # 🖼️ Image Grayscale Analysis & Power BI Visualization  
 **Author:** [Dipanshu Modi](https://github.com/dipanshumodi31)  
 **Skills:** Python, Data Processing, Excel Automation, Power BI, Data Visualization  
