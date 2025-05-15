@@ -1,6 +1,6 @@
 
 # 🖼️ Image Grayscale Analysis & Power BI Visualization  
-**Author:** [Your Name]  
+**Author:** [Dipanshu Modi](https://github.com/dipanshumodi31)  
 **Skills:** Python, Data Processing, Excel Automation, Power BI, Data Visualization  
 
 ---
@@ -14,7 +14,7 @@ This project automates the process of **reading image files, converting them to 
 ✅ Exports to **Excel**, one sheet per image  
 ✅ Prepares data for **Power BI histogram creation**
 
-🔗 **Dataset:** Local image files (JPG, PNG, JPEG format)  
+🔗 **Dataset:** "input_images" Folder (JPG, PNG, JPEG format)  
 📊 **Visualization Tool:** Microsoft Power BI  
 
 ---
@@ -24,6 +24,10 @@ This project automates the process of **reading image files, converting them to 
 ✔ Export pixel intensity data to Excel for analysis  
 ✔ Build intuitive **histograms** in Power BI for image-level insights  
 ✔ Handle large image sizes gracefully (skip oversized images)  
+---
+
+## ✅ Visualisation
+![Output](PowerBiOUTPUT.png)
 
 ---
 
@@ -80,8 +84,10 @@ Once the Excel file is generated:
 
 ```
 ├── input_images/           # Folder with input images (up to 10)
+├── PowerBiOUTPUT.png       # Output of PowerBI file
 ├── grayscale_matrices.xlsx # Output Excel file (auto-generated)
-├── image_to_excel.py       # Python script
+├── image_to_excel.ipynb    # Python script
+├── image_histograms.pbix   # PowerBI file
 └── README.md               # This file
 ```
 
@@ -120,8 +126,3 @@ python image_to_excel.py
 ✔ Reusable for both **scientific** and **business analytics** workflows  
 
 ---
-
-## 📧 Connect with Me  
-- **LinkedIn:** [Your LinkedIn](#)  
-- **Portfolio:** [Your Portfolio](#)  
-- **Email:** [youremail@example.com](#)  
